@@ -8,7 +8,7 @@ end
 
 def match(words_array)
 
-  words_array.select do |element|
+  words_array.select do |elements|
     (word.split("").sort) == (elements.split("").sort)
   end
 end
